@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="register.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="../assignment-fixes.css"></head>
+<body><a class="portfolio-back" href="../../index.html#work">← Back to portfolio</a>
+    <form name="myForm" id="myForm" action="login.html">
+        <fieldset>
+            <legend><strong>Register</strong></legend>
+            <p class="require-note">* require</p>
+
+            First name*: <br>
+            <input type="text" name="firstname" id="firstname" required><br>
+
+            Last name*: <br>
+            <input type="text" name="lastname" id="lastname" required><br>
+
+            Gender: 
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+            <br>
+
+            Birthday: <br>
+            <input type="date" name="birthday" id="birthday"><br>
+
+            Email address*: <br>
+            <input type="email" name="email" id="email" required><br>
+
+            Username*: <br>
+            <input type="text" name="username" id="username" required><br>
+
+            Password*: <br>
+            <input type="password" name="password" id="password" required><br>
+
+            Retype Password*: <br>
+            <input type="password" name="retypePassword" id="retypePassword" required><br>
+
+            <input type="submit" value="Register" id="registerBtn">
+            <input type="reset" value="Reset" id="resetBtn">
+        <p><a href="login.html">มีบัญชีแล้ว? ไปหน้า Login</a></p></fieldset>
+    </form>
+</body>
+</html>

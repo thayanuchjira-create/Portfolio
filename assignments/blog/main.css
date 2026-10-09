@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    max-width: 760px;
+    margin: 35px auto;
+    padding: 20px;
+    background: #f8f5ed;
+    color: #28261f;
+    font-family: Arial, Tahoma, sans-serif
+}
+
+h1 {
+    font-size: 42px
+}
+
+#topic,
+#reply1,
+#reply2 {
+    min-height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere
+}
+
+textarea {
+    width: 100%;
+    min-height: 120px;
+    margin-top: 12px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font: inherit
+}
+
+button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 25px;
+    margin: 12px 8px 0 0;
+    background: #8676ac;
+    color: white;
+    cursor: pointer
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ded7cb;
+    margin: 20px 0
+}
